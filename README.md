@@ -1,6 +1,6 @@
 # ToDo List
 
-This project URL [App Link](https://fuadabdu123.github.io/React-ToDo/)https://fuadabdu123.github.io/React-ToDo/
+This project URL [App Link](https://fuadabdu123.github.io/React-ToDo/) https://fuadabdu123.github.io/React-ToDo/
 
 ## Getting Started with Create React App
 
