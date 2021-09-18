@@ -10,7 +10,9 @@ function App() {
   const [compelete, setCompelete] = useState(false);
 
   const addToDo = () => {
-    var newToDo = {
+    // check if any character is typed by uset
+    if(toDo.length > 0){
+       var newToDo = {
       id: Date.now(),
       text: toDo,
       time: moment().format("LLLL"),
@@ -19,6 +21,8 @@ function App() {
     setToDos([...toDos, newToDo])
     setToDo('')
   }
+    }
+   
 
   var days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
   var d = new Date();
